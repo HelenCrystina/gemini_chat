@@ -7,10 +7,10 @@ st.set_page_config(page_title="Chat IA com Gemini", layout="wide")
 st.title("🤖 Chat com IA - Google Gemini")
 
 # Obtém a chave da API do ambiente ou define diretamente (menos seguro)
-API_KEY = os.getenv("GEMINI_API_KEY") or "SUA_CHAVE_API_AQUI"
+API_KEY = os.getenv("GEMINI_API_KEY") or "AIzaSyDoI726I60xUULjMfIcTqN2ojZBhBNcn60"
 
 # Verificação de chave
-if not API_KEY or API_KEY == "SUA_CHAVE_API_AQUI":
+if not API_KEY or API_KEY == "AIzaSyDoI726I60xUULjMfIcTqN2ojZBhBNcn60":
     st.error("⚠️ Insira sua chave da API Gemini no código ou configure a variável de ambiente GEMINI_API_KEY.")
     st.stop()
 
