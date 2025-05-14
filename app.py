@@ -4,7 +4,7 @@ from gemini_client import GeminiClient
 
 # Configuração da página
 st.set_page_config(page_title="Chat IA com Gemini", layout="wide")
-st.title("🤖 Chat com IA - Google Gemini")
+st.title("🤖 Chat da Helen com IA - Google Gemini")
 
 # Obtém a chave da API do ambiente ou define diretamente (menos seguro)
 API_KEY = os.getenv("GEMINI_API_KEY") or "AIzaSyDoI726I60xUULjMfIcTqN2ojZBhBNcn60"
